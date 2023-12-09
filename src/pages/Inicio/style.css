@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+.caixa_login{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 4px;
+    background-color: rgb(4, 21, 20);
+    color: white;
+    font-size: 25px;
+}
+.login input{
+    margin: 5% 0;
+    width: 50%;
+    color: white;
+    background-color: rgb(4, 21, 20);
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+.botoes_login{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.botao_confirmar,
+.botao_limpar{
+    font-family: 'Agbalumo', sans-serif;
+    margin: 5% 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(4, 21, 20);
+    border: none;
+    border-radius: 5px;
+    padding: 5%;
+    font-size: 20px;
+}
+
+.titulo{
+    padding-top: 5%;
+    color: white;
+}
